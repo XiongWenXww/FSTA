@@ -6,8 +6,6 @@ class FourierAtt(nn.Module):
     def __init__(self, args):
         super(FourierAtt, self).__init__()
         self.args = args
-        self.LayerNorm = LayerNorm(args.d_model, eps=1e-12)
-        self.dropout = nn.Dropout(args.hidden_dropout_prob)
         self.item_encoder = Encoder(args)
 
         self.apply(self.init_weights)

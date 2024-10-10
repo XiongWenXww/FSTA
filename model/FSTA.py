@@ -45,7 +45,7 @@ class FSTA(nn.Module):
         tep_input = FA_output.transpose(1, 2)  # [B, N, T, d_model]
         tep_output, _ = self.slf_attn(tep_input, slf_attn_mask)  # [B, N, T, d_model], [B, N, h, T, T]
         tep_output = self.pos_ffn(tep_output)
-        # spatial attention
+        # spatiotemporal fusion attention
         tep_output = tep_output.transpose(1, 2)  # [B, T, N, d_model]
 
         _, spa_attn = self.slf_attn(X_spa, slf_attn_mask)  # [B, T, N, d_model], [N, N]

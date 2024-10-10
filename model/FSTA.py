@@ -38,6 +38,7 @@ class FSTA(nn.Module):
         enc_output = self.dropout(emb_output + pos_enc)
         enc_output = self.layer_norm(enc_output)
 
+        # Fourier attention
         FA_output = self.FA(enc_output) # [B, T, N, d_model]
         X_spa = FA_output # X_spa doesn't change with irfft_output
 

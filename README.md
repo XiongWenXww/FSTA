@@ -1,4 +1,4 @@
-# FSTA
+# Brain Effective Connectivity Estimation via Fourier Spatiotemporal Attention (KDD 2025, Best Student Paper Runner-Up)
 
 ## Introduction of output:
 
@@ -12,8 +12,9 @@ and the brain effective connectivity matrix obtained by the FSTA-EC indicates th
 Let the output brain effective connectivity matrix be A, then Aij indicates that brain region vi exerts a causal effect on brain region vj.
 
 ## Download dataset
+- **Simulated fMRI datasets:** You can access the well simulated fMRI datasets from [[Sanchez]](https://github.com/cabal-cmu/feedbackdiscovery).
 
-Sanchez: https://github.com/cabal-cmu/feedbackdiscovery
+- **Real resting-state fMRI dataset:** You can access the real resting-state fMRI dataset we used by navigating to the [[Real]](https://github.com/shahpreya/MTlnet) and placing it in the folder ... /fMRI/.
 
 ## Train the model in simulated fMRI dataset:
 

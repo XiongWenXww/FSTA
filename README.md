@@ -1,8 +1,10 @@
 <div align="center">
   <!-- <h1><b> Time-LLM </b></h1> -->
   <!-- <h2><b> Time-LLM </b></h2> -->
-  <h2><b> Brain Effective Connectivity Estimation via Fourier Spatiotemporal Attention (KDD 2025, Best Student Paper Runner-Up) </b></h2>
+  <h2><b> (KDD 2025, Best Student Paper Runner-Up) Brain Effective Connectivity Estimation via Fourier Spatiotemporal Attention </b></h2>
 </div>
+
+**[<a href="https://dl.acm.org/doi/10.1145/3690624.3709226">Paper Page</a>]**
 
 ## Introduction of output:
 

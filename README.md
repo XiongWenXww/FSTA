@@ -1,4 +1,8 @@
-# Brain Effective Connectivity Estimation via Fourier Spatiotemporal Attention (KDD 2025, Best Student Paper Runner-Up)
+<div align="center">
+  <!-- <h1><b> Time-LLM </b></h1> -->
+  <!-- <h2><b> Time-LLM </b></h2> -->
+  <h2><b> Brain Effective Connectivity Estimation via Fourier Spatiotemporal Attention (KDD 2025, Best Student Paper Runner-Up) </b></h2>
+</div>
 
 ## Introduction of output:
 
@@ -16,7 +20,7 @@ Let the output brain effective connectivity matrix be A, then Aij indicates that
 
 - **Real resting-state fMRI dataset:** You can access the real resting-state fMRI dataset we used by navigating to the [[Real]](https://github.com/shahpreya/MTlnet) and placing it in the folder ... /fMRI/.
 
-## Train the model in simulated fMRI dataset:
+## Quick Start:
 
 ```
 python train_FSTA_sanch_multi.py
